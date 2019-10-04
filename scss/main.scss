@@ -58,7 +58,7 @@ a:hover{
 	/*background: url(../../img/header-bg.png);
 	background-size: cover;*/
 	position: relative;
-	@media screen and (min-width: 600px) {
+	@media screen and (max-width: 600px) {
      height: auto;
   }
  
@@ -192,7 +192,7 @@ a:hover{
 
  }//gb-align
 .cont-main-text{
-	;
+	
 .main-text{
 	position: absolute;
 	bottom: 60px;
