@@ -4645,7 +4645,7 @@ a:hover {
   /*background: url(../../img/header-bg.png);
 	background-size: cover;*/
   position: relative; }
-  @media screen and (min-width: 600px) {
+  @media screen and (max-width: 600px) {
     .bd-example {
       height: auto; } }
 
@@ -4901,7 +4901,4 @@ a:hover {
   border-bottom: 10px solid transparent;
   opacity: .5;
   transition: opacity .6s ease;
-  border-radius: 50%;
-  border: 3px solid #fff; }
-  .carousel-indicators li .active {
-    background: #fff; }
+  border-radius: 50%; }
